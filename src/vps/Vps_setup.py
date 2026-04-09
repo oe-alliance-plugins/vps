@@ -31,7 +31,6 @@ class VPS_Setup(Setup):
 				(_("Enable VPS on instant records"), config.plugins.vps.instanttimer, _("When yes, VPS will be enabled on instant records (stop after current event), if the channel supports VPS."))])
 		self["config"].list = setup_list
 
-
 	def show_info(self):
 		VPS_show_info(self.session)
 
