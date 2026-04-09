@@ -72,7 +72,7 @@ def setup(session, **kwargs):
 	session.openWithCallback(doneConfig, VPS_Setup)
 
 
-def doneConfig(session, **kwargs):
+def doneConfig(*args, **kwargs):
 	vps_timers.checkTimer()
 
 
