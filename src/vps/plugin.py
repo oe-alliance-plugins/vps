@@ -1,6 +1,5 @@
 from __future__ import absolute_import
 from Plugins.Plugin import PluginDescriptor
-from os import stat
 from .Vps import vps_timers
 from .Vps_setup import VPS_Setup
 from .Modifications import register_vps
@@ -48,7 +47,7 @@ def autostart(reason, **kwargs):
 				from twisted.web import static
 				from twisted.python import util
 				from enigma import eEnv
-			except ImportError as ie:
+			except ImportError:
 				pass
 			else:
 				if hasattr(static.File, 'render_GET'):

@@ -3,18 +3,17 @@
 from . import _
 from RecordTimer import RecordTimerEntry, RecordTimer
 from Screens.TimerEntry import TimerEntry
-from Components.ConfigList import ConfigList
-from Components.config import config, ConfigSelection, ConfigText, ConfigSubList, ConfigDateTime, ConfigClock, ConfigYesNo, getConfigListEntry
+from Components.config import config, ConfigSelection, ConfigDateTime, ConfigClock, getConfigListEntry
 from Tools import Directories
 from Tools.XMLTools import stringToXML
-from Tools import Notifications
-from Screens.MessageBox import MessageBox
 from Screens.InfoBarGenerics import InfoBarInstantRecord
 from time import time
 from enigma import getBestPlayableServiceReference, eServiceReference
 import xml.etree.cElementTree
 from .Vps_setup import VPS_show_info
 import six
+import sys
+import inspect
 
 vps_already_registered = False
 
@@ -23,8 +22,6 @@ vps_already_registered = False
 # of which takes a positional parameter whilst the other does not).
 # In both Py2 and Py3. It's not pretty as we have to count the args...
 #
-import sys
-import inspect
 if sys.version_info[0] == 2:
 	__getargs = inspect.getargspec
 else:
