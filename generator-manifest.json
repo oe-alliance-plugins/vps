@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "VPS-Plugin",
+  "description_recipe": "VPS-Plugin",
+  "history_source_dir": "vps",
+  "internal_package_name": "enigma2-plugin-systemplugins-vps",
+  "module_dir_name": "vps",
+  "output_subdir": "vps",
+  "package_name": "enigma2-plugin-systemplugins-vps",
+  "plugin_src_rel": "vps",
+  "python_package": "vps",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "vps",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}
