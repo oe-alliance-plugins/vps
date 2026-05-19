@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vps\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:06+0430\n"
+"POT-Creation-Date: 2026-04-09 21:56+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vytenis P. <vyteniui@gmail.com>\n"
 "Language-Team: Vytenis P. <vyteniui@gmail.com>\n"
@@ -15,61 +15,74 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ../src_py\n"
 
+#: ../Modifications.py:171 ../Modifications.py:174
 msgid "%d.%B %Y"
 msgstr "%Y %B %e"
 
-msgid "Cancel"
-msgstr "Atšaukti"
-
+#: ../Vps_setup.py:26
 msgid "Check for PDC"
 msgstr ""
 
+#: ../Vps_setup.py:26
 msgid "Check for PDC availability on each service"
 msgstr ""
 
+#: ../Modifications.py:211
 msgid "Enable VPS"
 msgstr "Įjungti VPS"
 
+#: ../Vps_setup.py:30
 msgid "Enable VPS by default (new timers)"
 msgstr "VPS įjungta - numatytasis (naujiems laikmačiams)"
 
+#: ../Vps_setup.py:31
 msgid "Enable VPS on instant records"
 msgstr "Įjungti VPS neplaniniams įrašams"
 
+#: ../Vps_setup.py:23
 msgid "Enable VPS-Plugin"
 msgstr "Įjungti VPS įskiepį"
 
+#: ../Vps_setup.py:29
 msgid "If a programme is interrupted and divided into separate events, the plugin will search for the connected events."
 msgstr "Jeigu įvykis nutraukiamas ir padalinamas į atskirus įvykius, įskiepis ieškos susijusių įvykių."
 
+#: ../Vps_setup.py:28
 #, fuzzy
 msgid "If enabled and necessary, the plugin will wake up the Receiver from Deep-Standby for the defined starting time to control whether the programme begins earlier."
 msgstr "Jeigu įjungta ir to prireikia, įskiepis įjungs aparatą iš gilaus budėjimo nurodytu metu, kad patikrinti, gal įvykis prasideda anksčiau."
 
+#: ../Vps_setup.py:27
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr "Jeigu galima, X minučių prieš laikmačio pradžią, VPS įskiepis patikrins, ar programa neprasideda anksčiau (0 - funkcija išjungta)"
 
+#: ../Vps.py:394
 msgid "In order to record a timer, the TV was switched to the recording service!\n"
 msgstr "Kad pradėti įrašymą pagal laikmatį, TV perjungtas į įrašomą kanalą!\n"
 
+#: ../Vps_setup.py:16
 msgid "Information"
 msgstr "Informacija"
 
+#: ../Modifications.py:168 ../Vps_check.py:265 ../Vps_check.py:294
+#: ../plugin.py:23 ../plugin.py:24
 msgid "No"
 msgstr "Ne"
 
-msgid "OK"
-msgstr "Gerai"
-
-msgid "Really close without saving settings?"
-msgstr "Tikrai uždaryti, neišsaugant nustatymų?"
-
+#: ../Vps_setup.py:29
 msgid "Seeking connected events"
 msgstr "Ieškoma susijusių įvykių"
 
+#: ../Vps_setup.py:18
+#, fuzzy
+msgid "Show VPS plugin information screen"
+msgstr "VPS įskiepio informacija"
+
+#: ../Vps_setup.py:27
 msgid "Starting time"
 msgstr "Pradedama"
 
+#: ../Vps_check.py:260
 msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -77,6 +90,7 @@ msgstr ""
 "VPS įskiepis negali patikrinti, ar šis kanalas palaiko VPS, rankiniu būdu nustatytiems laikmačiams!\n"
 " Ar tikrai norite įjungti VPS?"
 
+#: ../Vps_check.py:302
 msgid ""
 "The channel may support VPS\n"
 " Do you want to enable VPS?"
@@ -84,6 +98,7 @@ msgstr ""
 "Kanalas galimai palaiko VPS.\n"
 "Ar norite įjungti VPS?"
 
+#: ../Vps_check.py:258
 msgid ""
 "The selected channel doesn't support VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -91,22 +106,33 @@ msgstr ""
 "Šis kanalas nepalaiko VPS rankiniu būdu nustatytiems laikmačiams!\n"
 " Ar tikrai norite įjungti VPS?"
 
+#: ../Vps_setup.py:23
 msgid "This plugin can determine whether a programme begins earlier or lasts longer. The channel has to provide reliable data."
 msgstr "Šis įskiepis gali nustatyti, jei įvykis prasideda anksčiau, arba ilgiau užtrunka. Kanalas tam turi pateikti patikimus duomenis."
 
+#: ../plugin.py:91 ../plugin.py:111
 msgid "VPS Settings"
 msgstr "VPS nuostatos"
 
+#: ../Vps_setup.py:20
 #, python-format
 msgid "VPS Setup Version %s"
 msgstr "VPS sąrankos versija %s"
 
+#: ../Vps_setup.py:30
 msgid "VPS enabled by default"
 msgstr "VPS įjungta - numatytasis"
 
+#: ../Vps_setup.py:19
+#, fuzzy
+msgid "VPS plugin Actions"
+msgstr "VPS įskiepio informacija"
+
+#: ../Vps_setup.py:41
 msgid "VPS-Plugin Information"
 msgstr "VPS įskiepio informacija"
 
+#: ../Vps_setup.py:42
 msgid ""
 "VPS-Plugin can react on delays arising in the startTime or endTime of a programme. VPS is only supported by certain channels!\n"
 "\n"
@@ -154,9 +180,11 @@ msgstr ""
 "\n"
 "Jeigu laikmatis nustatytas rankiniu būdu (ne iš EPG), kad įjungti VPS, reikia nurodyti VPS laiką. VPS laikas (dar vadinamas PDC), tai pradžios pagal TV programą laikas. Jei nurodėte VPS laiką, laikmačio pavadinimą palikite tuščią."
 
+#: ../Vps_check.py:127
 msgid "VPS-Plugin checks if the channel supports VPS ..."
 msgstr "VPS įskiepis tikrina, ar kanalas palaiko VPS..."
 
+#: ../Vps_check.py:304
 msgid ""
 "VPS-Plugin couldn't check if the channel supports VPS.\n"
 " Do you want to enable VPS anyway?"
@@ -164,6 +192,7 @@ msgstr ""
 "VPS įskiepis negali patikrinti, ar kanalas palaiko VPS.\n"
 " Ar vis tiek norite įjungti VPS?"
 
+#: ../Vps_check.py:266
 msgid ""
 "VPS-Plugin couldn't check if the selected channel supports VPS.\n"
 " Do you really want to enable VPS?"
@@ -171,26 +200,35 @@ msgstr ""
 "VPS įskiepis negali patikrinti, ar šis kanalas palaiko VPS.\n"
 " Ar tikrai norite įjungti VPS?"
 
+#: ../Modifications.py:227
 msgid "VPS-Time (date)"
 msgstr "VPS laikas (data)"
 
+#: ../Modifications.py:228
 msgid "VPS-Time (time)"
 msgstr "VPS laikas (laikas)"
 
+#: ../Vps_setup.py:28
 msgid "Wakeup from Deep-Standby is allowed"
 msgstr "Leidžiama prižadinti iš gilaus budėjimo"
 
+#: ../Vps_setup.py:31
 msgid "When yes, VPS will be enabled on instant records (stop after current event), if the channel supports VPS."
 msgstr "Jeigu \"Taip\" ir kanalas palaiko VPS, VPS bus įjungtas neplaniniams įrašams (išjungiant po šio įvykio)."
 
+#: ../Modifications.py:168 ../Vps_check.py:265 ../Vps_check.py:294
+#: ../plugin.py:23 ../plugin.py:24
 msgid "Yes"
 msgstr "Taip"
 
+#: ../Modifications.py:168 ../Vps_check.py:294 ../plugin.py:23 ../plugin.py:24
 msgid "Yes (safe mode)"
 msgstr "Taip (saugus režimas)"
 
+#: ../Vps_check.py:265
 msgid "Yes, don't ask again"
 msgstr "Taip. Ir daugiau neklausti"
 
+#: ../plugin.py:24
 msgid "always ask"
 msgstr "visada klausti"

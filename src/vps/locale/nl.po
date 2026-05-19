@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2-plugins 3.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:06+0430\n"
+"POT-Creation-Date: 2026-04-09 21:56+0200\n"
 "PO-Revision-Date: 2011-09-28 14:07+0100\n"
 "Last-Translator: R.L. van der Does\n"
 "Language-Team: Andy Blackburn/Rob van der Does\n"
@@ -19,61 +19,74 @@ msgstr ""
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-Country: NETHERLANDS\n"
 
+#: ../Modifications.py:171 ../Modifications.py:174
 msgid "%d.%B %Y"
 msgstr "%d.%B %Y"
 
-msgid "Cancel"
-msgstr "Annuleer"
-
+#: ../Vps_setup.py:26
 msgid "Check for PDC"
 msgstr ""
 
+#: ../Vps_setup.py:26
 msgid "Check for PDC availability on each service"
 msgstr ""
 
+#: ../Modifications.py:211
 msgid "Enable VPS"
 msgstr "VPS inschakelen"
 
+#: ../Vps_setup.py:30
 msgid "Enable VPS by default (new timers)"
 msgstr "VPS standaard ingeschakeld (nieuwe timers)"
 
+#: ../Vps_setup.py:31
 msgid "Enable VPS on instant records"
 msgstr ""
 
+#: ../Vps_setup.py:23
 msgid "Enable VPS-Plugin"
 msgstr "VPS-Plugin inschakelen"
 
+#: ../Vps_setup.py:29
 msgid "If a programme is interrupted and divided into separate events, the plugin will search for the connected events."
 msgstr "Als een programma wordt onderbroken en in aparte events is verdeeld, zal de plugin zoeken naar de verbonden gebeurtenissen."
 
+#: ../Vps_setup.py:28
 #, fuzzy
 msgid "If enabled and necessary, the plugin will wake up the Receiver from Deep-Standby for the defined starting time to control whether the programme begins earlier."
 msgstr "Indien ingeschakeld en noodzakelijk, zal de plugin uw Dreambox uit Deep-Standby halen voor de bepaalde starttijd, om te controleren of het programma eerder begint."
 
+#: ../Vps_setup.py:27
 msgid "If possible, x minutes before a timer starts VPS-Plugin will control whether the programme begins earlier. (0 disables feature)"
 msgstr "Indien mogelijk zal de plugin x minuten voor de ingestelde starttijd controleren of een programma eerder begint. (0 schakelt deze optie uit)"
 
+#: ../Vps.py:394
 msgid "In order to record a timer, the TV was switched to the recording service!\n"
 msgstr "Om de opname te kunnen maken, is uw TV overgeschakeld naar het op te nemen kanaal!\n"
 
+#: ../Vps_setup.py:16
 msgid "Information"
 msgstr "Informatie"
 
+#: ../Modifications.py:168 ../Vps_check.py:265 ../Vps_check.py:294
+#: ../plugin.py:23 ../plugin.py:24
 msgid "No"
 msgstr "Nee"
 
-msgid "OK"
-msgstr "OK"
-
-msgid "Really close without saving settings?"
-msgstr "Echt afsluiten zonder de gegevens op te slaan?"
-
+#: ../Vps_setup.py:29
 msgid "Seeking connected events"
 msgstr "Zoekt verbonden events"
 
+#: ../Vps_setup.py:18
+#, fuzzy
+msgid "Show VPS plugin information screen"
+msgstr "Informatie"
+
+#: ../Vps_setup.py:27
 msgid "Starting time"
 msgstr "Start tijd"
 
+#: ../Vps_check.py:260
 msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -81,6 +94,7 @@ msgstr ""
 "De VPS-Plugin kon niet vaststellen of het geselecteerde kanaal ondersteuning biedt voor handmatig geprogrammeerde timers!\n"
 "Wilt u VPS echt inschakelen?"
 
+#: ../Vps_check.py:302
 #, fuzzy
 msgid ""
 "The channel may support VPS\n"
@@ -89,6 +103,7 @@ msgstr ""
 "VPS-Plugin kon niet controleren of het geselecteerde kanaal VPS ondersteunt.\n"
 "Wilt u VPS echt inschakelen?"
 
+#: ../Vps_check.py:258
 msgid ""
 "The selected channel doesn't support VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -96,23 +111,34 @@ msgstr ""
 "Het geselecteerde kanaal ondersteunt geen VPS voor handmatige timers!\n"
 "Wilt u VPS echt inschakelen?"
 
+#: ../Vps_setup.py:23
 msgid "This plugin can determine whether a programme begins earlier or lasts longer. The channel has to provide reliable data."
 msgstr "De plugin kon niet vaststellen of een programma eerder begint of langer duurt. Het kanaal heeft geen betrouwbare gegevens."
 
+#: ../plugin.py:91 ../plugin.py:111
 msgid "VPS Settings"
 msgstr ""
 
+#: ../Vps_setup.py:20
 #, python-format
 msgid "VPS Setup Version %s"
 msgstr ""
 
+#: ../Vps_setup.py:30
 msgid "VPS enabled by default"
 msgstr "VPS standaard ingeschakeld"
 
+#: ../Vps_setup.py:19
+#, fuzzy
+msgid "VPS plugin Actions"
+msgstr "Informatie"
+
+#: ../Vps_setup.py:41
 #, fuzzy
 msgid "VPS-Plugin Information"
 msgstr "Informatie"
 
+#: ../Vps_setup.py:42
 #, fuzzy
 msgid ""
 "VPS-Plugin can react on delays arising in the startTime or endTime of a programme. VPS is only supported by certain channels!\n"
@@ -161,9 +187,11 @@ msgstr ""
 "\n"
 "Als een timer handmatig is ingesteld (niet via de EPG), is het noodzakelijk om  VPS-Time in te stellen om VPS in te schakelen. VPS-Time (ook bekend als PDC) is de eerst gepubliceerde starttijd, zoals die b.v. in tijdschriften staat. Als u een VPS-Time instelt, moet u de timer naam leeg laten."
 
+#: ../Vps_check.py:127
 msgid "VPS-Plugin checks if the channel supports VPS ..."
 msgstr "VPS-Plugin controleert of het kanaal VPS ondersteunt..."
 
+#: ../Vps_check.py:304
 #, fuzzy
 msgid ""
 "VPS-Plugin couldn't check if the channel supports VPS.\n"
@@ -172,6 +200,7 @@ msgstr ""
 "VPS-Plugin kon niet controleren of het geselecteerde kanaal VPS ondersteunt.\n"
 "Wilt u VPS echt inschakelen?"
 
+#: ../Vps_check.py:266
 msgid ""
 "VPS-Plugin couldn't check if the selected channel supports VPS.\n"
 " Do you really want to enable VPS?"
@@ -179,26 +208,35 @@ msgstr ""
 "VPS-Plugin kon niet controleren of het geselecteerde kanaal VPS ondersteunt.\n"
 "Wilt u VPS echt inschakelen?"
 
+#: ../Modifications.py:227
 msgid "VPS-Time (date)"
 msgstr "VPS-Time (datum)"
 
+#: ../Modifications.py:228
 msgid "VPS-Time (time)"
 msgstr "VPS-Time (tijd)"
 
+#: ../Vps_setup.py:28
 msgid "Wakeup from Deep-Standby is allowed"
 msgstr "Opstarten vanuit Deep-Standby toegestaan"
 
+#: ../Vps_setup.py:31
 msgid "When yes, VPS will be enabled on instant records (stop after current event), if the channel supports VPS."
 msgstr ""
 
+#: ../Modifications.py:168 ../Vps_check.py:265 ../Vps_check.py:294
+#: ../plugin.py:23 ../plugin.py:24
 msgid "Yes"
 msgstr "Ja"
 
+#: ../Modifications.py:168 ../Vps_check.py:294 ../plugin.py:23 ../plugin.py:24
 msgid "Yes (safe mode)"
 msgstr ""
 
+#: ../Vps_check.py:265
 msgid "Yes, don't ask again"
 msgstr "Ja, niet opnieuw vragen"
 
+#: ../plugin.py:24
 msgid "always ask"
 msgstr ""
